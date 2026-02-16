@@ -122,7 +122,7 @@ while running:
 
         collision = isCollision(enemyX[i],enemyY[i],bulletX,bulletY)
         if collision:
-            explosion_sound = mixer.Sound("explosion.wav")
+            explosion_sound = mixer.Sound("Bullet.png")
             explosion_sound.play()
             bulletY = 480
             bullet_state = "ready"
